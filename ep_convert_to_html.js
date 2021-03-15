@@ -117,7 +117,7 @@ exports.expressCreateServer = function (hook_name, args, callback) {
 
     setTimeout(async function () {
       await fsp_unlink(destFile);
-    }, 1000 * 30);
+    }, 1000 * 60);
 
     return res.download(destFile);
   });
