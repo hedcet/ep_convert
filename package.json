@@ -1,0 +1,16 @@
+{
+  "author": "Linto Cheeran <linto.cet@gmail.com>",
+  "dependencies": {
+    "express-rate-limit": "^5.2.6",
+    "formidable": "^1.2.2"
+  },
+  "description": "etherpad-lite API for convert to html",
+  "homepage": "https://github.com/hedcet/ep_convert_to_html#readme",
+  "name": "ep_convert_to_html",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HedCET/ep_convert_to_html.git"
+  },
+  "license": "private"
+}
