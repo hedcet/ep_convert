@@ -102,11 +102,13 @@ exports.expressCreateServer = function (hook_name, args, callback) {
 
     const destFile = path.join(os.tmpdir(), `etherpad_convert_to_html_${Math.floor(Math.random() * 0xFFFFFFFF)}.${exportExtension}`);
 
+    console.log('ep_convert_to_html', srcFile, destFile);
+
     await new Promise((resolve, reject) => {
       convertor.convertFile(srcFile, destFile, exportExtension, (e) => {
         if (e) {
-          console.warn(`convert_to_html error ${e}`);
-          return reject('convert_to_html failed');
+          console.warn(`ep_convert_to_html error ${e}`);
+          return reject('ep_convert_to_html failed');
         }
 
         resolve();
