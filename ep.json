@@ -2,9 +2,9 @@
   "parts": [
     {
       "hooks": {
-        "expressCreateServer": "ep_convert_to_html/ep_convert_to_html.js"
+        "expressCreateServer": "ep_convert/ep_convert.js"
       },
-      "name": "ep_convert_to_html"
+      "name": "ep_convert"
     }
   ]
 }

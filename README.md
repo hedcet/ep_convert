@@ -1,1 +1,1 @@
-etherpad-lite API for convert to html 
+etherpad-lite API for direct abyword/soffice import/export
